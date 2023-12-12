@@ -1,0 +1,29 @@
+.left, .right {
+  width: 100%;
+}
+.left {
+  width: 100%;
+  background-image: url('../images/signin.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  transition: 0.2s;
+}
+.left:hover {
+  opacity: 1;
+}
+.right {
+  color: #444;
+  height: 100vh;
+}
+
+@media screen and (min-width: 992px) {
+  .left, .right {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 992px) {
+  .left {
+    display: none !important;
+  }
+}

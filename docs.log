@@ -1,0 +1,53 @@
+~ Detail and structure method, file and folder ~
+
+[#] Assets 
+		[*] css
+				- mystyle.css (!important)
+				- authentication.css (signin and signup only)
+		[*] fonts
+				- Megrim (acakdadu)
+				- Nunito (Common)
+		[*] images
+				- signin.jpg (Banner authentication)
+				- favicon.svg (Github icon)
+		[*] js
+
+
+[#] Config
+		[*] Functions
+				- signin.php
+				- signout.php
+				- signup.php
+
+		- connection.php (session_start() here..)
+
+		- helper.php (Functions) :
+			> Set default time
+			> Get automatically url path on server (BASE_URL)
+			> Config apps from db data
+			> Get Random Name and Email (ID)
+			> Detail array (pre->print = parr())
+			> Date format Indonesia (Full, Day and Month)
+
+	 - index.php (Hide structure of configuration)
+
+
+[#] Libraries
+		- Bootstrap 4.3.1
+		- Font Awesome 4.7.0 
+		- jQuery 3.4.1
+
+
+[#] Signin
+		- index.php (Include recover account page)
+
+
+[#] Signup
+		- index.php
+
+
+- index.php (Template Syntax and Welcome Page)
+- phpnative.sql
+	> config (name_apps, owner, maintenance, updated_at)
+	> users (id, username, email, password, active)
+	> persons (id, first_name, last_name, email, active)

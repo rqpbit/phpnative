@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'Megrim-Regular';
+	src: url('../fonts/Megrim/Megrim-Regular.ttf') format('truetype');
+}
+
+.mf {
+	font-family: 'Megrim-Regular', sans-serif;
+	color: #0984e3;
+}
+
+.fs-5 {
+	font-size: 13px;
+}
